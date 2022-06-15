@@ -28,5 +28,3 @@ for i in {0..3000..100}
 rcdaq_client daq_close
 sleep 2
 rcdaq_client daq_shutdown
-sleep 1
-bash data/ConvertToTxt.sh
