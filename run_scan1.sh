@@ -1,7 +1,7 @@
 (sleep 2; echo "hi") | python StepperMotor/move.py -100,0
 rcdaq_client load librcdaqplugin_drs.so
 sleep 2
-rcdaq_client create_device device_drs -- 1 1001 0x21 -15 negative 550 0 0 1024 0
+rcdaq_client create_device device_drs -- 1 1001 0x22 100 positive 550 0 0 1024 0
 sleep 2
 rcdaq_control.pl &
 sleep 2
